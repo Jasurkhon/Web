@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>HTML Calculator</title> 
+    <link rel="stylesheet" href="style.css">
+  
+</head> 
+  
+<body> 
+  
+    <!-- Create table -->
+    <table id="calcu"> 
+        <tr> 
+            <td colspan="3"> 
+                <div id = 'txt'><p id="result">RESULT ....</p></div>
+            </td> 
+        </tr> 
+  
+        <tr> 
+            <td><input type="text" id="item1" name="num1" value="1"></td> 
+            <td><input type="text" id="item2" name="num2" value="2"></td>  
+        </tr> 
+     
+        <tr>
+            <td><input type="button" value="+" id="plus" class = "btn"></td> 
+            <td><input type="button" value="-" id="minus" class = "btn"></td> 
+        </tr>
+        <tr>
+            <td><input type="button" value="*" id="multiple" class = "btn"></td> 
+            <td><input type="button" value="/" id="division" class = "btn"></td> 
+        </tr>
+
+        <tr> 
+            <td><input type="button" value="=" id = 'submit' class = "btn"></td> 
+            <td><input type="button" value="CLEAR" id="cls" class = "btn"></td> 
+        </tr> 
+    </table> 
+
+    <script src="index.js"></script> 
+</body> 
+  
+</html>  
